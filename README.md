@@ -21,3 +21,5 @@ Para que se saiba, são eles: Educação de Qualidade, Redução das desigualdad
 
 Desenvolvemos essa rede social, dando um suporte, para que haja um melhor engajamento e diversidade dentro do mercado, revelando oportunidades, eventos ou qualquer atividade que prepare as habilidades do usuário para ingressar no mercado. O Recomece nasceu em um momento em que surgiu um termo inerente às mulheres: feminicídios.
 Dada as estatísticas, não poderiamos excluir esse tema mais delicado nos nossos assuntos, para que você se sinta confortável e plena na tomada das suas decisões.
+
+![alt text](https://i.imgur.com/nc384TD.pnghttp://url/to/img.png)
