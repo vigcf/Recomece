@@ -1,0 +1,123 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CMaterial+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:400,700%7CMaterial+Icons">
+    <link rel="stylesgeet" href="https://rawgit.com/creativetimofficial/material-kit/master/assets/css/material-kit.css">
+</head>
+
+<body class="profile-page">
+
+    <nav class="navbar navbar-expand-lg main-navbar" style="background-color: #dfced369;">
+        <a [routerLink]=" ['/postagem'] ">
+            <img src="https://i.imgur.com/nc384TD.png" alt="Logo Recomece" width="120px" height="120px" class="img-fluid "></a>
+        <form class="form-inline text-aling: right">
+
+        </form>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+            </ul>
+            <form class="form-inline ">
+                <button class="btn btn-secondary bt-color mx-3 bt2-color bt-cadastrar bt-zoom" type="button" (click)='sair()'><strong>Sair</strong></button>
+            </form>
+        </div>
+
+    </nav>
+    <!--Fim NavBar-->
+    <nav class="navbar navbar-color-on-scroll navbar-transparent  fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+                <!--<img src="https://i.imgur.com/dMBVIWg.png" width="300px" right="300px" >-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="dropdown nav-item">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page-header header-filter" data-parallax="true"></div>
+    <div class="main main-raised">
+        <div class="profile-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ml-auto mr-auto">
+                        <div class="profile">
+                            <div class="avatar">
+                                <img src="{{foto}}" alt="Imagem do User" style="height: 150px; height: 150px;" class="img-raised rounded-circle img-fluid">
+
+                            </div>
+                            <div class=" name ">
+                                <h1 class="title ">{{nome}}</h1>
+                                <p class="description text-center ">{{ bio }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="descriptionAboutMe d-flex align-items-center ">
+                    <h5></h5>
+                    <img src="https://i.imgur.com/ThRC63i.jpg " href=" " target="_blank " class="icoFacebook " width="50px " height="50px "> Email: {{email}}<br>
+                </div>
+                <div class="row ">
+                    <div class="col-md-12 d-flex justify-content-between ">
+                        <ul class="social-network ">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+
+
+                    <a (click)='findByIdUser()' class="nav-item nav-link text-secondary font-weight-bold" id="nav-minhasPostagens-tab" data-toggle="tab" href="#minhasPostagens" role="tab" aria-controls="nav-minhasPostagens" aria-selected="false">Minhas Postagens</a>
+
+                </div>
+            </nav>
+
+            <div class="tab-content mt-5" id="nav-tabContent">
+
+
+                <div class="tab-pane fade" id="minhasPostagens" role="tabpanel" aria-labelledby="nav-minhasPostagens-tab">
+
+                    <div class="card-columns">
+                        <div class="card text-center" *ngFor='let item of user.postagem'>
+                            <div class="card-body">
+                                <h5 class="card-title m-0">{{item.titulo}}</h5>
+                                <small class="text-muted"> Tema: {{item.tema.categoria
+                                    }}</small>
+                                <p class="card-text mt-3">{{item.texto}}</p>
+                                <p class="card-text"><small class="text-muted">
+                        {{ item.data }}
+                      </small></p>
+
+                                <a [routerLink]="['/postagem-edit', item.idPostagem]" class="text-info mr-3" href="">Editar</a>
+                                <a [routerLink]="['/postagem-delete', item.idPostagem]" class="text-danger" href="">Apagar</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <footer class="footer text-center ">
+        <a href="https://github.com/VitoriaAlric/Recomece " target="_blank ">© 2021 Copyright: Recomece Group.</a> Todos os direitos reservados.
+    </footer>
+</body>

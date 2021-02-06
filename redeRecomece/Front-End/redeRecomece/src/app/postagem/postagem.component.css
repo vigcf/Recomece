@@ -1,0 +1,30 @@
+.glassmorphism {
+    background: #93b5c657;
+    box-shadow: 0 8px 32px 0 rgb(36, 43, 141);
+    backdrop-filter: blur( 7.0px);
+    -webkit-backdrop-filter: blur( 7.0px);
+    border-radius: 10px;
+}
+
+.glassmorphismo {
+    background: #93b5c6ad;
+    box-shadow: 0 8px 32px 0 rgba(36, 43, 141, 0.281);
+    backdrop-filter: blur( 7.0px);
+    -webkit-backdrop-filter: blur( 7.0px);
+    border-radius: 10px;
+}
+
+.textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.rodape {
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.219);
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+}

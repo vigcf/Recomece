@@ -1,0 +1,316 @@
+<nav class="navbar navbar-expand-lg main-navbar ">
+    <a href="#scroll">
+        <img src="https://i.imgur.com/nc384TD.png" alt="Logo Recomece" width="95px" height="95px" class="img-fluid mx-6"></a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+        </ul>
+        <form class="form-inline text-aling: right ">
+            <div class="form-group  mx-2">
+
+                <label for="username" class="sr-only ">Usuário</label>
+                <input [(ngModel)]='userLogin.userName' type="text" class="form-control  mx-2" name="username" id="username" placeholder="Campo do usuário">
+
+                <label for="password" class="sr-only">Senha</label>
+                <input [(ngModel)]='userLogin.senha' type="password" class="form-control  mx-2 " name="password" id="password" placeholder="Campo da senha">
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-outline-secondary bt-color bt2-color mx-2  bt-zoom" (click)='entrar()'>Entrar</button>
+            </div>
+            <a href="#areacadastrar">
+                <button class="btn btn-outline-secondary bt-color mx-3 bt2-color bt-cadastrar bt-zoom" type="button">Cadastre-se!</button>
+            </a>
+
+        </form>
+    </div>
+
+</nav>
+<!--Fim NavBar-->
+
+<!--Carrosel-inicio-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100 altura-carrosel" src="https://i.imgur.com/z4rxyg2.jpg" alt="Primeiro Slide">
+            <div class="carousel-caption d-none d-md-block image-1">
+                <h5>Seja a protagonista forte que você quer ver no mundo!</h5>
+                <p>Quando a vida bater forte e sua alma sangrar, quando esse mundo pesado lhe ferir, lhe esmagar... É hora do recomeço. Recomece a LUTAR. </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100 altura-carrosel" src="https://i.imgur.com/n8Aor24.png" alt="Segundo Slide">
+            <div class="carousel-caption d-none d-md-block image-2">
+                <h5>Encontre força no seu interior e coloque para fora toda a garra e determinação que você possui!</h5>
+                <p>Quando tudo for escuro e nada iluminar, quando tudo for incerto e você só duvidar... É hora do recomeço. Recomece a ACREDITAR. </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100 altura-carrosel" src="https://i.imgur.com/395LUyu.jpg" alt="Terceiro Slide">
+            <div class="carousel-caption d-none d-md-block image-3">
+                <h5>Seja uma mulher que levanta outras mulheres!</h5>
+                <p>Quando a estrada for longa e seu corpo fraquejar, quando não houver caminho nem um lugar pra chegar...É hora do recomeço. Recomece a CAMINHAR. </p>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+    </a>
+</div>
+<!--Carrosel-fim-->
+
+<!--Inicio Intro-->
+<div class="background">
+    <div class="jumbotron retangulo">
+        <p class="display-4 font-italic font-weight-bold text-dark text">Ambiente de Integração para o seu Desenvolvimento!
+        </p>
+        <p class="lead text-dark text2"> Para você mulher que decidiu reescrever as linhas do seu destino, faça parte da nossa comunidade feminina.</p>
+        <br><br>
+        <img class="mt-5" src="https://i.imgur.com/GQzzLEd.png" alt="Mulheres com bandeira Recomece" width="800px" height="90px" class="img-fluid  float-sm-right">
+    </div>
+
+    <!--Fim Intro-->
+    <!--jumbotron sobre inicio-->
+    <br>
+    <br>
+    <section id="sobre">
+        <div class="col-md-12" id="scroll">
+            <h1 class="d-flex justify-content-center font-italic display-4 mb-4 p-3 text-center text-xs-left">A iniciativa...
+            </h1>
+
+            <div class="row align-items-center w-100">
+
+                <div>
+
+                    <img src="https://i.imgur.com/d98QTsi.png" alt="Logo Recomece" class="img-fluid" width="50%" style="float:left">
+                    <p class="font-weight-light text-justify  altera-fontes col-md-12 fonte align-center">
+                        Verificamos no nosso dia a dia a ausência de <span style='font-weight:bold'>mulheres no mercado
+                            da
+                            tecnologia</span>, e com a crescente dedicação para a <span style='font-weight:bold'>inclusão delas</span>, visamos no projeto atingir alguns Objetivos de Desenvolvimento Sustentável da ONU para 2030.
+
+                    </p>
+
+                    <p class="font-weight-light text-justify altera-fontes col-md-12 fonte">
+                        Para que se saiba, são eles:<span style='font-weight:bold'> Educação de Qualidade, Redução das
+                            desigualdades</span> (o que talvez também promova uma Igualdade de Gênero) e <span style='font-weight:bold'>Emprego e Crescimento
+                            Econômico.</span>
+
+                    </p>
+
+                    <p class="font-weight-light text-justify altera-fontes col-md-12 fonte">
+                        Desenvolvemos essa rede, dando um suporte, para que haja um melhor engajamento e <span style='font-weight:bold'>diversidade</span> dentro do mercado, revelando oportunidades, eventos ou qualquer atividade que prepare as habilidades
+                        do usuário para ingressar no mercado. O Recomece nasceu em um momento em que surgiu um termo inerente às mulheres: feminicídios.
+                        <br>Dada as estatísticas, não poderiamos excluir esse tema mais delicado nos nossos assuntos, para que você se sinta confortável e plena na tomada das suas decisões.
+                    </p>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--jumbotron sobre fim-->
+
+
+    <!--Cadastrar-Inicio-->
+    <br>
+    <br>
+    <div class="container-fluid" id="areacadastrar">
+        <div class="row">
+
+            <div class="col-md-6" id='img-bg'></div>
+
+            <div class="col-md-6 mt-5 mb-5">
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-10">
+                        <h1 class="text-center">Junte-se a nós</h1>
+
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input [(ngModel)]='user.nome' class="form-control" type="text" name="nome" id="nome" placeholder="Seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="usuario">Usuário</label>
+                            <input [(ngModel)]='user.userName' class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu usuário">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="foto">Link da foto</label>
+                            <input [(ngModel)]='user.foto' class="form-control" type="text" name="foto" id="foto" placeholder="Sua foto">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="senha">Senha</label>
+                            <input (input)='confirmSenha($event)' class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirmeSenha">Confirmar Senha</label>
+                            <input [(ngModel)]='user.senha' class="form-control" type="password" name="confirmeSenha" id="confirmeSenha" placeholder="Confirme sua senha">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input [(ngModel)]='user.email' class="form-control" type="text" name="email" id="email" placeholder="Campo do email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bio">Biografia: </label>
+                            <input [(ngModel)]='user.bio' class="form-control" type="text" name="bio" id="bio" placeholder="Descrição ao perfil">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tipo">Tipo de Usuário</label>
+                            <select class="form-control" name="tipo" id="tipo" (change)='tipoUser($event)'>
+                                <option>Selecione um tipo de usuário:</option>
+                                <option value="normal">Normal</option>
+                                <option value="administrador">Administrador</option>
+                            </select>
+                            <br>
+                            <br>
+                            <div class="wrap">
+                                <button type="submit" class="button-cad" (click)='cadastrar()'>Cadastrar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Cadastrar-Fim-->
+
+    <!--cards-equipe-inicio<hr>ng ser
+<br>
+<br> 
+    <!-image lateral-inicio-->
+    <div class="d-flex justify-content-center font-italic display-4 mb-4 p-3 align-items-center">
+
+
+        <h2 class="font-italic "> Siga-nos nas redes sociais </h2>
+        <img src="https://i.imgur.com/pRvNJZV.png" alt="Imagem rede social" width="250px" height="250px">
+
+    </div>
+    <!--image lateral-fim-->
+    <div class="tcenter">
+
+        <div class="card card1-zoom p10 card border-dark mb-3 text-dark">
+            <div class="bolinha">
+                <img class="card-img-top" src="https://i.imgur.com/0pSGt3b.jpg" alt="Github">
+            </div>
+            <div class="card-body ">
+                <h5 class="card-title">Vitória Gonçalves</h5>
+                <p class="card-text">Desenvolvedora Jr. java Full stack</p>
+                <a href="https://github.com/VitoriaAlric" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">
+                </a>
+                <a href="https://www.linkedin.com/in/vitória-alric11953025442/" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">
+                </a>
+            </div>
+        </div>
+
+
+        <div class="card card-up card2-zoom p10 card border-dark mb-3 text-dark">
+            <div class="bolinha">
+                <img class="card-img-top " src="https://i.imgur.com/ShAPMu0.jpg" alt="Github">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Jéssica Santos</h5>
+                <p class="card-text">Desenvolvedora Jr. java Full stack</p>
+                <a href="https://github.com/JessicaSantoss" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">
+                </a>
+                <a href="https://www.linkedin.com/in/j%C3%A9ssica-s-615241115/" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">
+                </a>
+            </div>
+        </div>
+
+        <div class="card card-up card3-zoom p10 card border-dark mb-3 text-dark">
+            <div class="bolinha">
+                <img class="card-img-top" src="https://i.imgur.com/N7btkza.jpg" alt="Github">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">João Pedro</h5>
+                <p class="card-text">Desenvolvedor Jr. java Full stack</p>
+                <a href="https://github.com/Mr-Sena" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">
+                </a>
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-sena-64a3b11a0/" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="card card-up card4-zoom p10 card border-dark mb-3 text-dark">
+            <div class="bolinha">
+                <img class="card-img-top" src="https://i.imgur.com/EIIxucC.jpg" alt="Github">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Thiago dos Anjos</h5>
+                <p class="card-text">Desenvolvedor Jr. java Full stack</p>
+                <a href="https://github.com/thiagohdosanjos" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">
+                </a>
+                <a href="https://www.linkedin.com/in/thiago-dos-anjos-184101186/" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">
+                </a>
+            </div>
+        </div>
+
+        <div class="card card-up card5-zoom p10 card border-dark mb-3 text-dark">
+            <div class="bolinha">
+                <img class="card-img-top" src="https://i.imgur.com/T11DDIW.jpg" alt="Foto da Ana">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Ana Verônica</h5>
+                <p class="card-text">Desenvolvedora Jr. java Full stack.</p>
+                <a href="" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">
+                </a>
+                <a href="https://www.linkedin.com/in/ana-veronica-nascimento-cruz-1896a0158/" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">
+                </a>
+            </div>
+        </div>
+
+        <div class="card card-up card6-zoom p10 card border-dark mb-3 text-dark">
+            <div class="bolinha">
+                <img class="card-img-top" src="https://i.imgur.com/C0ylYyT.jpg" alt="Foto da Jenifer">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Jenifer</h5>
+                <p class="card-text">Desenvolvedora Jr. java Full stack</p>
+                <a href="https://github.com/jeniferplacido" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">
+                </a>
+                <a href="https://www.linkedin.com/in/jenifer-pl%C3%A1cido-00b5611ab/" target="_blank" class="p-2">
+                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+    <!--cards-fim-->
+    <br>
+    <br>
