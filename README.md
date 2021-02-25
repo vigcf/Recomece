@@ -33,7 +33,7 @@ IMPORTANTE
  - Executando o projeto pela primeiro vez? 
 Certifique de:
 
-## Instalr o pacote node:
+## Instalar o pacote node:
 
 <code>npm i</code>
 
