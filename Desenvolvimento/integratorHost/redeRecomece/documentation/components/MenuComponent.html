@@ -1,0 +1,1467 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>rede-recomece documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">rede-recomece documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>MenuComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/menu/menu.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-menu</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./menu.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./menu.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#confirmarSenha">confirmarSenha</a>
+                            </li>
+                            <li>
+                                <a href="#tipoUsuario">tipoUsuario</a>
+                            </li>
+                            <li>
+                                <a href="#user">user</a>
+                            </li>
+                            <li>
+                                <a href="#userLogin">userLogin</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#cadastrar">cadastrar</a>
+                            </li>
+                            <li>
+                                <a href="#confirmSenha">confirmSenha</a>
+                            </li>
+                            <li>
+                                <a href="#entrar">entrar</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#tipoUser">tipoUser</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(auth: <a href="../injectables/AuthService.html">AuthService</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, location: <a href="https://angular.io/api/common/Location" target="_blank">Location</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/menu/menu.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>auth</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthService.html" target="_self" >AuthService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>location</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/common/Location" target="_blank" >Location</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cadastrar"></a>
+                    <span class="name">
+                        <b>
+                            cadastrar
+                        </b>
+                        <a href="#cadastrar"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>cadastrar()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="66"
+                            class="link-to-prism">src/app/menu/menu.component.ts:66</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="confirmSenha"></a>
+                    <span class="name">
+                        <b>
+                            confirmSenha
+                        </b>
+                        <a href="#confirmSenha"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>confirmSenha(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="58"
+                            class="link-to-prism">src/app/menu/menu.component.ts:58</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="entrar"></a>
+                    <span class="name">
+                        <b>
+                            entrar
+                        </b>
+                        <a href="#entrar"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>entrar()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="31"
+                            class="link-to-prism">src/app/menu/menu.component.ts:31</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="27"
+                            class="link-to-prism">src/app/menu/menu.component.ts:27</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="tipoUser"></a>
+                    <span class="name">
+                        <b>
+                            tipoUser
+                        </b>
+                        <a href="#tipoUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>tipoUser(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="62"
+                            class="link-to-prism">src/app/menu/menu.component.ts:62</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="confirmarSenha"></a>
+                        <span class="name">
+                            <b>
+                            confirmarSenha</b>
+                            <a href="#confirmarSenha"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/menu/menu.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tipoUsuario"></a>
+                        <span class="name">
+                            <b>
+                            tipoUsuario</b>
+                            <a href="#tipoUsuario"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/menu/menu.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="user"></a>
+                        <span class="name">
+                            <b>
+                            user</b>
+                            <a href="#user"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/User.html" target="_self" >User</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new User</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/menu/menu.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="userLogin"></a>
+                        <span class="name">
+                            <b>
+                            userLogin</b>
+                            <a href="#userLogin"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/UserLogin.html" target="_self" >UserLogin</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new UserLogin()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/menu/menu.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Location } from &#x27;@angular/common&#x27;;
+import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { environment } from &#x27;src/environments/environment.prod&#x27;;
+import { User } from &#x27;../model/User&#x27;;
+import { UserLogin } from &#x27;../model/UserLogin&#x27;;
+import { AuthService } from &#x27;../service/auth.service&#x27;;
+
+@Component({
+  selector: &#x27;app-menu&#x27;,
+  templateUrl: &#x27;./menu.component.html&#x27;,
+  styleUrls: [&#x27;./menu.component.css&#x27;]
+})
+export class MenuComponent implements OnInit {
+
+  userLogin: UserLogin &#x3D; new UserLogin()
+  user: User &#x3D; new User
+  confirmarSenha: string
+  tipoUsuario: string
+
+  constructor(
+    private auth: AuthService,
+    private router: Router,
+    private location: Location
+  ) { }
+
+  ngOnInit() {
+    window.scroll(0, 0)
+  }
+
+  entrar() {
+    this.auth.entrar(this.userLogin).subscribe((resp: UserLogin) &#x3D;&gt; {
+      this.userLogin &#x3D; resp
+
+      /*Variável definida com o escopo global na pasta Environment(blogPersonal/src/environments/environment.prod)
+      ↓ Para acessa-la segura a tecla Ctrl + click na palavra environment*/
+      environment.token &#x3D; this.userLogin.token
+      console.log(this.userLogin.token)
+      environment.nome &#x3D; this.userLogin.nome
+      environment.foto &#x3D; this.userLogin.foto
+      environment.id &#x3D; this.userLogin.id
+      environment.tipo &#x3D; this.userLogin.tipo
+      environment.email &#x3D; this.userLogin.email
+      console.log(&#x27;Email: &#x27;, this.userLogin.email)
+      environment.bio &#x3D; this.userLogin.bio
+
+      this.router.navigate([&#x27;/postagem&#x27;])
+    }, erro &#x3D;&gt; {
+      if(erro.status &#x3D;&#x3D; 500) {
+        alert(&#x27;Usuário ou senha estão incorretos&#x27;)
+      }
+    })
+    
+  }
+
+  
+
+  confirmSenha(event: any) {
+    this.confirmarSenha &#x3D; event.target.value
+  }
+
+  tipoUser(event: any) {
+    this.tipoUsuario &#x3D; event.target.value
+  }
+
+  cadastrar() {
+    this.user.tipo &#x3D; this.tipoUsuario
+
+    if(this.user.senha !&#x3D; this.confirmarSenha) {
+      alert(&#x27;Senha incompatíveis!&#x27;)
+    } else{
+      this.auth.cadastrar(this.user).subscribe((resp: User) &#x3D;&gt; {
+        this.user &#x3D; resp
+        alert(&#x27;Usuário cadastrado com sucesso.&#x27;)
+        window.scroll(0, 0)
+        location.reload
+      })
+    }
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;nav class&#x3D;&quot;navbar navbar-expand-lg main-navbar &quot;&gt;
+    &lt;a href&#x3D;&quot;#scroll&quot;&gt;
+        &lt;img src&#x3D;&quot;https://i.imgur.com/nc384TD.png&quot; alt&#x3D;&quot;Logo Recomece&quot; width&#x3D;&quot;95px&quot; height&#x3D;&quot;95px&quot; class&#x3D;&quot;img-fluid mx-6&quot;&gt;&lt;/a&gt;
+
+    &lt;div class&#x3D;&quot;collapse navbar-collapse&quot; id&#x3D;&quot;navbarSupportedContent&quot;&gt;
+
+        &lt;ul class&#x3D;&quot;navbar-nav mr-auto&quot;&gt;
+            &lt;li class&#x3D;&quot;nav-item active&quot;&gt;
+        &lt;/ul&gt;
+        &lt;form class&#x3D;&quot;form-inline text-aling: right &quot;&gt;
+            &lt;div class&#x3D;&quot;form-group  mx-2&quot;&gt;
+
+                &lt;label for&#x3D;&quot;username&quot; class&#x3D;&quot;sr-only &quot;&gt;Usuário&lt;/label&gt;
+                &lt;input [(ngModel)]&#x3D;&#x27;userLogin.userName&#x27; type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control  mx-2&quot; name&#x3D;&quot;username&quot; id&#x3D;&quot;username&quot; placeholder&#x3D;&quot;Campo do usuário&quot;&gt;
+
+                &lt;label for&#x3D;&quot;password&quot; class&#x3D;&quot;sr-only&quot;&gt;Senha&lt;/label&gt;
+                &lt;input [(ngModel)]&#x3D;&#x27;userLogin.senha&#x27; type&#x3D;&quot;password&quot; class&#x3D;&quot;form-control  mx-2 &quot; name&#x3D;&quot;password&quot; id&#x3D;&quot;password&quot; placeholder&#x3D;&quot;Campo da senha&quot;&gt;
+            &lt;/div&gt;
+
+            &lt;div&gt;
+                &lt;button type&#x3D;&quot;submit&quot; class&#x3D;&quot;btn btn-outline-secondary bt-color bt2-color mx-2  bt-zoom&quot; (click)&#x3D;&#x27;entrar()&#x27;&gt;Entrar&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;a href&#x3D;&quot;#areacadastrar&quot;&gt;
+                &lt;button class&#x3D;&quot;btn btn-outline-secondary bt-color mx-3 bt2-color bt-cadastrar bt-zoom&quot; type&#x3D;&quot;button&quot;&gt;Cadastre-se!&lt;/button&gt;
+            &lt;/a&gt;
+
+        &lt;/form&gt;
+    &lt;/div&gt;
+
+&lt;/nav&gt;
+&lt;!--Fim NavBar--&gt;
+
+&lt;!--Carrosel-inicio--&gt;
+&lt;div id&#x3D;&quot;carouselExampleIndicators&quot; class&#x3D;&quot;carousel slide&quot; data-ride&#x3D;&quot;carousel&quot;&gt;
+    &lt;ol class&#x3D;&quot;carousel-indicators&quot;&gt;
+        &lt;li data-target&#x3D;&quot;#carouselExampleIndicators&quot; data-slide-to&#x3D;&quot;0&quot; class&#x3D;&quot;active&quot;&gt;&lt;/li&gt;
+        &lt;li data-target&#x3D;&quot;#carouselExampleIndicators&quot; data-slide-to&#x3D;&quot;1&quot;&gt;&lt;/li&gt;
+        &lt;li data-target&#x3D;&quot;#carouselExampleIndicators&quot; data-slide-to&#x3D;&quot;2&quot;&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;div class&#x3D;&quot;carousel-inner&quot;&gt;
+        &lt;div class&#x3D;&quot;carousel-item active&quot;&gt;
+            &lt;img class&#x3D;&quot;d-block w-100 altura-carrosel&quot; src&#x3D;&quot;https://i.imgur.com/z4rxyg2.jpg&quot; alt&#x3D;&quot;Primeiro Slide&quot;&gt;
+            &lt;div class&#x3D;&quot;carousel-caption d-none d-md-block image-1&quot;&gt;
+                &lt;h5&gt;Seja a protagonista forte que você quer ver no mundo!&lt;/h5&gt;
+                &lt;p&gt;Quando a vida bater forte e sua alma sangrar, quando esse mundo pesado lhe ferir, lhe esmagar... É hora do recomeço. Recomece a LUTAR. &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;carousel-item&quot;&gt;
+            &lt;img class&#x3D;&quot;d-block w-100 altura-carrosel&quot; src&#x3D;&quot;https://i.imgur.com/n8Aor24.png&quot; alt&#x3D;&quot;Segundo Slide&quot;&gt;
+            &lt;div class&#x3D;&quot;carousel-caption d-none d-md-block image-2&quot;&gt;
+                &lt;h5&gt;Encontre força no seu interior e coloque para fora toda a garra e determinação que você possui!&lt;/h5&gt;
+                &lt;p&gt;Quando tudo for escuro e nada iluminar, quando tudo for incerto e você só duvidar... É hora do recomeço. Recomece a ACREDITAR. &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;carousel-item&quot;&gt;
+            &lt;img class&#x3D;&quot;d-block w-100 altura-carrosel&quot; src&#x3D;&quot;https://i.imgur.com/395LUyu.jpg&quot; alt&#x3D;&quot;Terceiro Slide&quot;&gt;
+            &lt;div class&#x3D;&quot;carousel-caption d-none d-md-block image-3&quot;&gt;
+                &lt;h5&gt;Seja uma mulher que levanta outras mulheres!&lt;/h5&gt;
+                &lt;p&gt;Quando a estrada for longa e seu corpo fraquejar, quando não houver caminho nem um lugar pra chegar...É hora do recomeço. Recomece a CAMINHAR. &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;a class&#x3D;&quot;carousel-control-prev&quot; href&#x3D;&quot;#carouselExampleIndicators&quot; role&#x3D;&quot;button&quot; data-slide&#x3D;&quot;prev&quot;&gt;
+        &lt;span class&#x3D;&quot;carousel-control-prev-icon&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/span&gt;
+        &lt;span class&#x3D;&quot;sr-only&quot;&gt;Anterior&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;a class&#x3D;&quot;carousel-control-next&quot; href&#x3D;&quot;#carouselExampleIndicators&quot; role&#x3D;&quot;button&quot; data-slide&#x3D;&quot;next&quot;&gt;
+        &lt;span class&#x3D;&quot;carousel-control-next-icon&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/span&gt;
+        &lt;span class&#x3D;&quot;sr-only&quot;&gt;Próximo&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;!--Carrosel-fim--&gt;
+
+&lt;!--Inicio Intro--&gt;
+&lt;div class&#x3D;&quot;background&quot;&gt;
+    &lt;div class&#x3D;&quot;jumbotron retangulo&quot;&gt;
+        &lt;p class&#x3D;&quot;display-4 font-italic font-weight-bold text-dark text&quot;&gt;Ambiente de Integração para o seu Desenvolvimento!
+        &lt;/p&gt;
+        &lt;p class&#x3D;&quot;lead text-dark text2&quot;&gt; Para você mulher que decidiu reescrever as linhas do seu destino, faça parte da nossa comunidade feminina.&lt;/p&gt;
+        &lt;br&gt;&lt;br&gt;
+        &lt;img class&#x3D;&quot;mt-5&quot; src&#x3D;&quot;https://i.imgur.com/GQzzLEd.png&quot; alt&#x3D;&quot;Mulheres com bandeira Recomece&quot; width&#x3D;&quot;800px&quot; height&#x3D;&quot;90px&quot; class&#x3D;&quot;img-fluid  float-sm-right&quot;&gt;
+    &lt;/div&gt;
+
+    &lt;!--Fim Intro--&gt;
+    &lt;!--jumbotron sobre inicio--&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;section id&#x3D;&quot;sobre&quot;&gt;
+        &lt;div class&#x3D;&quot;col-md-12&quot; id&#x3D;&quot;scroll&quot;&gt;
+            &lt;h1 class&#x3D;&quot;d-flex justify-content-center font-italic display-4 mb-4 p-3 text-center text-xs-left&quot;&gt;A iniciativa...
+            &lt;/h1&gt;
+
+            &lt;div class&#x3D;&quot;row align-items-center w-100&quot;&gt;
+
+                &lt;div&gt;
+
+                    &lt;img src&#x3D;&quot;https://i.imgur.com/d98QTsi.png&quot; alt&#x3D;&quot;Logo Recomece&quot; class&#x3D;&quot;img-fluid&quot; width&#x3D;&quot;50%&quot; style&#x3D;&quot;float:left&quot;&gt;
+                    &lt;p class&#x3D;&quot;font-weight-light text-justify  altera-fontes col-md-12 fonte align-center&quot;&gt;
+                        Verificamos no nosso dia a dia a ausência de &lt;span style&#x3D;&#x27;font-weight:bold&#x27;&gt;mulheres no mercado
+                            da
+                            tecnologia&lt;/span&gt;, e com a crescente dedicação para a &lt;span style&#x3D;&#x27;font-weight:bold&#x27;&gt;inclusão delas&lt;/span&gt;, visamos no projeto atingir alguns Objetivos de Desenvolvimento Sustentável da ONU para 2030.
+
+                    &lt;/p&gt;
+
+                    &lt;p class&#x3D;&quot;font-weight-light text-justify altera-fontes col-md-12 fonte&quot;&gt;
+                        Para que se saiba, são eles:&lt;span style&#x3D;&#x27;font-weight:bold&#x27;&gt; Educação de Qualidade, Redução das
+                            desigualdades&lt;/span&gt; (o que talvez também promova uma Igualdade de Gênero) e &lt;span style&#x3D;&#x27;font-weight:bold&#x27;&gt;Emprego e Crescimento
+                            Econômico.&lt;/span&gt;
+
+                    &lt;/p&gt;
+
+                    &lt;p class&#x3D;&quot;font-weight-light text-justify altera-fontes col-md-12 fonte&quot;&gt;
+                        Desenvolvemos essa rede, dando um suporte, para que haja um melhor engajamento e &lt;span style&#x3D;&#x27;font-weight:bold&#x27;&gt;diversidade&lt;/span&gt; dentro do mercado, revelando oportunidades, eventos ou qualquer atividade que prepare as habilidades
+                        do usuário para ingressar no mercado. O Recomece nasceu em um momento em que surgiu um termo inerente às mulheres: feminicídios.
+                        &lt;br&gt;Dada as estatísticas, não poderiamos excluir esse tema mais delicado nos nossos assuntos, para que você se sinta confortável e plena na tomada das suas decisões.
+                    &lt;/p&gt;
+
+
+
+
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/section&gt;
+
+    &lt;!--jumbotron sobre fim--&gt;
+
+
+    &lt;!--Cadastrar-Inicio--&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;div class&#x3D;&quot;container-fluid&quot; id&#x3D;&quot;areacadastrar&quot;&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+
+            &lt;div class&#x3D;&quot;col-md-6&quot; id&#x3D;&#x27;img-bg&#x27;&gt;&lt;/div&gt;
+
+            &lt;div class&#x3D;&quot;col-md-6 mt-5 mb-5&quot;&gt;
+
+                &lt;div class&#x3D;&quot;row d-flex justify-content-center&quot;&gt;
+                    &lt;div class&#x3D;&quot;col-md-10&quot;&gt;
+                        &lt;h1 class&#x3D;&quot;text-center&quot;&gt;Junte-se a nós&lt;/h1&gt;
+
+                        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                            &lt;label for&#x3D;&quot;nome&quot;&gt;Nome&lt;/label&gt;
+                            &lt;input [(ngModel)]&#x3D;&#x27;user.nome&#x27; class&#x3D;&quot;form-control&quot; type&#x3D;&quot;text&quot; name&#x3D;&quot;nome&quot; id&#x3D;&quot;nome&quot; placeholder&#x3D;&quot;Seu nome&quot;&gt;
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                            &lt;label for&#x3D;&quot;usuario&quot;&gt;Usuário&lt;/label&gt;
+                            &lt;input [(ngModel)]&#x3D;&#x27;user.userName&#x27; class&#x3D;&quot;form-control&quot; type&#x3D;&quot;text&quot; name&#x3D;&quot;usuario&quot; id&#x3D;&quot;usuario&quot; placeholder&#x3D;&quot;Seu usuário&quot;&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                            &lt;label for&#x3D;&quot;foto&quot;&gt;Link da foto&lt;/label&gt;
+                            &lt;input [(ngModel)]&#x3D;&#x27;user.foto&#x27; class&#x3D;&quot;form-control&quot; type&#x3D;&quot;text&quot; name&#x3D;&quot;foto&quot; id&#x3D;&quot;foto&quot; placeholder&#x3D;&quot;Sua foto&quot;&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                            &lt;label for&#x3D;&quot;senha&quot;&gt;Senha&lt;/label&gt;
+                            &lt;input (input)&#x3D;&#x27;confirmSenha($event)&#x27; class&#x3D;&quot;form-control&quot; type&#x3D;&quot;password&quot; name&#x3D;&quot;senha&quot; id&#x3D;&quot;senha&quot; placeholder&#x3D;&quot;Sua senha&quot;&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                            &lt;label for&#x3D;&quot;confirmeSenha&quot;&gt;Confirmar Senha&lt;/label&gt;
+                            &lt;input [(ngModel)]&#x3D;&#x27;user.senha&#x27; class&#x3D;&quot;form-control&quot; type&#x3D;&quot;password&quot; name&#x3D;&quot;confirmeSenha&quot; id&#x3D;&quot;confirmeSenha&quot; placeholder&#x3D;&quot;Confirme sua senha&quot;&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                            &lt;label for&#x3D;&quot;email&quot;&gt;E-mail&lt;/label&gt;
+                            &lt;input [(ngModel)]&#x3D;&#x27;user.email&#x27; class&#x3D;&quot;form-control&quot; type&#x3D;&quot;text&quot; name&#x3D;&quot;email&quot; id&#x3D;&quot;email&quot; placeholder&#x3D;&quot;Campo do email&quot;&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                            &lt;label for&#x3D;&quot;bio&quot;&gt;Biografia: &lt;/label&gt;
+                            &lt;input [(ngModel)]&#x3D;&#x27;user.bio&#x27; class&#x3D;&quot;form-control&quot; type&#x3D;&quot;text&quot; name&#x3D;&quot;bio&quot; id&#x3D;&quot;bio&quot; placeholder&#x3D;&quot;Descrição ao perfil&quot;&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                            &lt;label for&#x3D;&quot;tipo&quot;&gt;Tipo de Usuário&lt;/label&gt;
+                            &lt;select class&#x3D;&quot;form-control&quot; name&#x3D;&quot;tipo&quot; id&#x3D;&quot;tipo&quot; (change)&#x3D;&#x27;tipoUser($event)&#x27;&gt;
+                                &lt;option&gt;Selecione um tipo de usuário:&lt;/option&gt;
+                                &lt;option value&#x3D;&quot;normal&quot;&gt;Normal&lt;/option&gt;
+                                &lt;option value&#x3D;&quot;administrador&quot;&gt;Administrador&lt;/option&gt;
+                            &lt;/select&gt;
+                            &lt;br&gt;
+                            &lt;br&gt;
+                            &lt;div class&#x3D;&quot;wrap&quot;&gt;
+                                &lt;button type&#x3D;&quot;submit&quot; class&#x3D;&quot;button-cad&quot; (click)&#x3D;&#x27;cadastrar()&#x27;&gt;Cadastrar&lt;/button&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Cadastrar-Fim--&gt;
+
+    &lt;!--cards-equipe-inicio&lt;hr&gt;ng ser
+&lt;br&gt;
+&lt;br&gt; 
+    &lt;!-image lateral-inicio--&gt;
+    &lt;div class&#x3D;&quot;d-flex justify-content-center font-italic display-4 mb-4 p-3 align-items-center&quot;&gt;
+
+
+        &lt;h2 class&#x3D;&quot;font-italic &quot;&gt; Siga-nos nas redes sociais &lt;/h2&gt;
+        &lt;img src&#x3D;&quot;https://i.imgur.com/pRvNJZV.png&quot; alt&#x3D;&quot;Imagem rede social&quot; width&#x3D;&quot;250px&quot; height&#x3D;&quot;250px&quot;&gt;
+
+    &lt;/div&gt;
+    &lt;!--image lateral-fim--&gt;
+    &lt;div class&#x3D;&quot;tcenter&quot;&gt;
+
+        &lt;div class&#x3D;&quot;card card1-zoom p10 card border-dark mb-3 text-dark&quot;&gt;
+            &lt;div class&#x3D;&quot;bolinha&quot;&gt;
+                &lt;img class&#x3D;&quot;card-img-top&quot; src&#x3D;&quot;https://i.imgur.com/0pSGt3b.jpg&quot; alt&#x3D;&quot;Github&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;card-body &quot;&gt;
+                &lt;h5 class&#x3D;&quot;card-title&quot;&gt;Vitória Gonçalves&lt;/h5&gt;
+                &lt;p class&#x3D;&quot;card-text&quot;&gt;Desenvolvedora Jr. java Full stack&lt;/p&gt;
+                &lt;a href&#x3D;&quot;https://github.com/VitoriaAlric&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/BvLKWvt.png&quot; alt&#x3D;&quot;Logo do Git&quot;&gt;
+                &lt;/a&gt;
+                &lt;a href&#x3D;&quot;https://www.linkedin.com/in/vitória-alric11953025442/&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/AaY5agL.png&quot; alt&#x3D;&quot;Logo do Linkedin&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+        &lt;div class&#x3D;&quot;card card-up card2-zoom p10 card border-dark mb-3 text-dark&quot;&gt;
+            &lt;div class&#x3D;&quot;bolinha&quot;&gt;
+                &lt;img class&#x3D;&quot;card-img-top &quot; src&#x3D;&quot;https://i.imgur.com/ShAPMu0.jpg&quot; alt&#x3D;&quot;Github&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;card-body&quot;&gt;
+                &lt;h5 class&#x3D;&quot;card-title&quot;&gt;Jéssica Santos&lt;/h5&gt;
+                &lt;p class&#x3D;&quot;card-text&quot;&gt;Desenvolvedora Jr. java Full stack&lt;/p&gt;
+                &lt;a href&#x3D;&quot;https://github.com/JessicaSantoss&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/BvLKWvt.png&quot; alt&#x3D;&quot;Logo do Git&quot;&gt;
+                &lt;/a&gt;
+                &lt;a href&#x3D;&quot;https://www.linkedin.com/in/j%C3%A9ssica-s-615241115/&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/AaY5agL.png&quot; alt&#x3D;&quot;Logo do Linkedin&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;card card-up card3-zoom p10 card border-dark mb-3 text-dark&quot;&gt;
+            &lt;div class&#x3D;&quot;bolinha&quot;&gt;
+                &lt;img class&#x3D;&quot;card-img-top&quot; src&#x3D;&quot;https://i.imgur.com/N7btkza.jpg&quot; alt&#x3D;&quot;Github&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;card-body&quot;&gt;
+                &lt;h5 class&#x3D;&quot;card-title&quot;&gt;João Pedro&lt;/h5&gt;
+                &lt;p class&#x3D;&quot;card-text&quot;&gt;Desenvolvedor Jr. java Full stack&lt;/p&gt;
+                &lt;a href&#x3D;&quot;https://github.com/Mr-Sena&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/BvLKWvt.png&quot; alt&#x3D;&quot;Logo do Git&quot;&gt;
+                &lt;/a&gt;
+                &lt;a href&#x3D;&quot;https://www.linkedin.com/in/jo%C3%A3o-pedro-sena-64a3b11a0/&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/AaY5agL.png&quot; alt&#x3D;&quot;Logo do Linkedin&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;div class&#x3D;&quot;card card-up card4-zoom p10 card border-dark mb-3 text-dark&quot;&gt;
+            &lt;div class&#x3D;&quot;bolinha&quot;&gt;
+                &lt;img class&#x3D;&quot;card-img-top&quot; src&#x3D;&quot;https://i.imgur.com/EIIxucC.jpg&quot; alt&#x3D;&quot;Github&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;card-body&quot;&gt;
+                &lt;h5 class&#x3D;&quot;card-title&quot;&gt;Thiago dos Anjos&lt;/h5&gt;
+                &lt;p class&#x3D;&quot;card-text&quot;&gt;Desenvolvedor Jr. java Full stack&lt;/p&gt;
+                &lt;a href&#x3D;&quot;https://github.com/thiagohdosanjos&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/BvLKWvt.png&quot; alt&#x3D;&quot;Logo do Git&quot;&gt;
+                &lt;/a&gt;
+                &lt;a href&#x3D;&quot;https://www.linkedin.com/in/thiago-dos-anjos-184101186/&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/AaY5agL.png&quot; alt&#x3D;&quot;Logo do Linkedin&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;card card-up card5-zoom p10 card border-dark mb-3 text-dark&quot;&gt;
+            &lt;div class&#x3D;&quot;bolinha&quot;&gt;
+                &lt;img class&#x3D;&quot;card-img-top&quot; src&#x3D;&quot;https://i.imgur.com/T11DDIW.jpg&quot; alt&#x3D;&quot;Foto da Ana&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;card-body&quot;&gt;
+                &lt;h5 class&#x3D;&quot;card-title&quot;&gt;Ana Verônica&lt;/h5&gt;
+                &lt;p class&#x3D;&quot;card-text&quot;&gt;Desenvolvedora Jr. java Full stack.&lt;/p&gt;
+                &lt;a href&#x3D;&quot;&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/BvLKWvt.png&quot; alt&#x3D;&quot;Logo do Git&quot;&gt;
+                &lt;/a&gt;
+                &lt;a href&#x3D;&quot;https://www.linkedin.com/in/ana-veronica-nascimento-cruz-1896a0158/&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/AaY5agL.png&quot; alt&#x3D;&quot;Logo do Linkedin&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;card card-up card6-zoom p10 card border-dark mb-3 text-dark&quot;&gt;
+            &lt;div class&#x3D;&quot;bolinha&quot;&gt;
+                &lt;img class&#x3D;&quot;card-img-top&quot; src&#x3D;&quot;https://i.imgur.com/C0ylYyT.jpg&quot; alt&#x3D;&quot;Foto da Jenifer&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;card-body&quot;&gt;
+                &lt;h5 class&#x3D;&quot;card-title&quot;&gt;Jenifer&lt;/h5&gt;
+                &lt;p class&#x3D;&quot;card-text&quot;&gt;Desenvolvedora Jr. java Full stack&lt;/p&gt;
+                &lt;a href&#x3D;&quot;https://github.com/jeniferplacido&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/BvLKWvt.png&quot; alt&#x3D;&quot;Logo do Git&quot;&gt;
+                &lt;/a&gt;
+                &lt;a href&#x3D;&quot;https://www.linkedin.com/in/jenifer-pl%C3%A1cido-00b5611ab/&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;p-2&quot;&gt;
+                    &lt;img class&#x3D;&quot;tm-social&quot; src&#x3D;&quot;https://i.imgur.com/AaY5agL.png&quot; alt&#x3D;&quot;Logo do Linkedin&quot;&gt;
+                &lt;/a&gt;
+
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--cards-fim--&gt;
+    &lt;br&gt;
+    &lt;br&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./menu.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.altura-carrosel {
+    height: 730px;
+    width: 730;
+}
+
+.main-navbar {
+    height: 70px;
+    background-color: RosyBrown;
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center
+}
+
+.text-inicio {
+    align-items: left;
+}
+
+.bt-color:hover {
+    background-color: MediumAquamarine;
+}
+
+.bt2-color {
+    background-color: rgb(250, 241, 241);
+}
+
+.bt-cadastrar:hover {
+    background-color: rgb(85, 119, 211);
+}
+
+.retangulo {
+    height: 650px;
+    background: Lavender;
+}
+
+.textOne {
+    position: absolute;
+    width: 1816px;
+    height: 471px;
+    font-family: Squada One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+
+/*cores carrosel*/
+
+.image-1 {
+    background-color: rgb(205, 92, 92, 0.8);
+}
+
+.image-2 {
+    background-color: rgba(153, 136, 185, 0.8);
+}
+
+.image-3 {
+    background-color: rgba(226, 79, 128, 0.8);
+}
+
+.text {
+    font-size: 40px;
+}
+
+.text2 {
+    font-size: 30px;
+}
+
+.altera-fontes {
+    font-style: normal;
+    font-size: 1.5em;
+    font-family: &quot;Times New Roman&quot;
+}
+
+.fonte {
+    font-family: &quot;Helvetica&quot;;
+}
+
+.retangulo2 {
+    width: 540px;
+    height: 300px;
+    left: 0px;
+    bottom: 0;
+}
+
+
+/*
+
+/*cards*/
+
+.p10 {
+    padding: 10px;
+    margin: 15px;
+}
+
+.tm-social {
+    height: 40px;
+}
+
+
+/*.card-up:hover{
+		transform: translateY(-50px);
+		}*/
+
+.card {
+    width: 220px;
+    margin: 50;
+    display: inline-block;
+    text-align: left;
+    font-family: &quot;Helvetica&quot;;
+}
+
+.card-zoom {
+    transition: 0.5s;
+    transform: scale(1);
+    text-align: center;
+}
+
+.card1-zoom:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: AntiqueWhite;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.card2-zoom:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: BlanchedAlmond;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.card3-zoom:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: Bisque;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.card4-zoom:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: PapayaWhip;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.card5-zoom:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: Moccasin;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.card6-zoom:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: BlanchedAlmond;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.bolinha {
+    overflow: hidden;
+    border-radius: 100%;
+    width: 50%;
+    margin: auto
+}
+
+.bt-zoom:hover {
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+
+
+/*cadastrar css*/
+
+#img-bg {
+    background-image: url(&#x27;https://i.imgur.com/Wulqi5y.png&#x27;);
+    min-height: 500px;
+    min-width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-logo {
+    margin-left: 10px;
+}
+
+
+/*button-cadastrar*/
+
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-cad {
+    min-width: 150px;
+    min-height: 50px;
+    font-family: &#x27;Nunito&#x27;, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+    background: linear-gradient(90deg, rgba(129, 230, 217, 1) 0%, rgba(79, 209, 197, 1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, .64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+}
+
+.button-cad::before {
+    content: &#x27;&#x27;;
+    border-radius: 1000px;
+    min-width: calc(135px + 12px);
+    min-height: calc(40px + 12px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 70px rgba(0, 255, 203, .64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+
+.button:hover,
+.button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+}
+
+button:hover::before,
+button:focus::before {
+    opacity: 1;
+}
+
+button::after {
+    content: &#x27;&#x27;;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+
+button:hover::after,
+button:focus::after {
+    animation: none;
+    display: none;
+}
+
+@keyframes ring {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+    100% {
+        width: 145px;
+        height: 140px;
+        opacity: 0;
+    }
+}
+
+
+/*fim do botão cadastrar*/
+
+.background {
+    background-color: Seashell;
+}
+
+
+/*carrosel transparencia inicio*/
+
+.div {
+    width: 100%;
+    height: 100px;
+    /* Aqui você pode alterar */
+    display: flex;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><nav class="navbar navbar-expand-lg main-navbar ">    <a href="#scroll">        <img src="https://i.imgur.com/nc384TD.png" alt="Logo Recomece" width="95px" height="95px" class="img-fluid mx-6"></a>    <div class="collapse navbar-collapse" id="navbarSupportedContent">        <ul class="navbar-nav mr-auto">            <li class="nav-item active">        </ul>        <form class="form-inline text-aling: right ">            <div class="form-group  mx-2">                <label for="username" class="sr-only ">Usuário</label>                <input [(ngModel)]=\'userLogin.userName\' type="text" class="form-control  mx-2" name="username" id="username" placeholder="Campo do usuário">                <label for="password" class="sr-only">Senha</label>                <input [(ngModel)]=\'userLogin.senha\' type="password" class="form-control  mx-2 " name="password" id="password" placeholder="Campo da senha">            </div>            <div>                <button type="submit" class="btn btn-outline-secondary bt-color bt2-color mx-2  bt-zoom" (click)=\'entrar()\'>Entrar</button>            </div>            <a href="#areacadastrar">                <button class="btn btn-outline-secondary bt-color mx-3 bt2-color bt-cadastrar bt-zoom" type="button">Cadastre-se!</button>            </a>        </form>    </div></nav><!--Fim NavBar--><!--Carrosel-inicio--><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">    <ol class="carousel-indicators">        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>    </ol>    <div class="carousel-inner">        <div class="carousel-item active">            <img class="d-block w-100 altura-carrosel" src="https://i.imgur.com/z4rxyg2.jpg" alt="Primeiro Slide">            <div class="carousel-caption d-none d-md-block image-1">                <h5>Seja a protagonista forte que você quer ver no mundo!</h5>                <p>Quando a vida bater forte e sua alma sangrar, quando esse mundo pesado lhe ferir, lhe esmagar... É hora do recomeço. Recomece a LUTAR. </p>            </div>        </div>        <div class="carousel-item">            <img class="d-block w-100 altura-carrosel" src="https://i.imgur.com/n8Aor24.png" alt="Segundo Slide">            <div class="carousel-caption d-none d-md-block image-2">                <h5>Encontre força no seu interior e coloque para fora toda a garra e determinação que você possui!</h5>                <p>Quando tudo for escuro e nada iluminar, quando tudo for incerto e você só duvidar... É hora do recomeço. Recomece a ACREDITAR. </p>            </div>        </div>        <div class="carousel-item">            <img class="d-block w-100 altura-carrosel" src="https://i.imgur.com/395LUyu.jpg" alt="Terceiro Slide">            <div class="carousel-caption d-none d-md-block image-3">                <h5>Seja uma mulher que levanta outras mulheres!</h5>                <p>Quando a estrada for longa e seu corpo fraquejar, quando não houver caminho nem um lugar pra chegar...É hora do recomeço. Recomece a CAMINHAR. </p>            </div>        </div>    </div>    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">        <span class="carousel-control-prev-icon" aria-hidden="true"></span>        <span class="sr-only">Anterior</span>    </a>    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">        <span class="carousel-control-next-icon" aria-hidden="true"></span>        <span class="sr-only">Próximo</span>    </a></div><!--Carrosel-fim--><!--Inicio Intro--><div class="background">    <div class="jumbotron retangulo">        <p class="display-4 font-italic font-weight-bold text-dark text">Ambiente de Integração para o seu Desenvolvimento!        </p>        <p class="lead text-dark text2"> Para você mulher que decidiu reescrever as linhas do seu destino, faça parte da nossa comunidade feminina.</p>        <br><br>        <img class="mt-5" src="https://i.imgur.com/GQzzLEd.png" alt="Mulheres com bandeira Recomece" width="800px" height="90px" class="img-fluid  float-sm-right">    </div>    <!--Fim Intro-->    <!--jumbotron sobre inicio-->    <br>    <br>    <section id="sobre">        <div class="col-md-12" id="scroll">            <h1 class="d-flex justify-content-center font-italic display-4 mb-4 p-3 text-center text-xs-left">A iniciativa...            </h1>            <div class="row align-items-center w-100">                <div>                    <img src="https://i.imgur.com/d98QTsi.png" alt="Logo Recomece" class="img-fluid" width="50%" style="float:left">                    <p class="font-weight-light text-justify  altera-fontes col-md-12 fonte align-center">                        Verificamos no nosso dia a dia a ausência de <span style=\'font-weight:bold\'>mulheres no mercado                            da                            tecnologia</span>, e com a crescente dedicação para a <span style=\'font-weight:bold\'>inclusão delas</span>, visamos no projeto atingir alguns Objetivos de Desenvolvimento Sustentável da ONU para 2030.                    </p>                    <p class="font-weight-light text-justify altera-fontes col-md-12 fonte">                        Para que se saiba, são eles:<span style=\'font-weight:bold\'> Educação de Qualidade, Redução das                            desigualdades</span> (o que talvez também promova uma Igualdade de Gênero) e <span style=\'font-weight:bold\'>Emprego e Crescimento                            Econômico.</span>                    </p>                    <p class="font-weight-light text-justify altera-fontes col-md-12 fonte">                        Desenvolvemos essa rede, dando um suporte, para que haja um melhor engajamento e <span style=\'font-weight:bold\'>diversidade</span> dentro do mercado, revelando oportunidades, eventos ou qualquer atividade que prepare as habilidades                        do usuário para ingressar no mercado. O Recomece nasceu em um momento em que surgiu um termo inerente às mulheres: feminicídios.                        <br>Dada as estatísticas, não poderiamos excluir esse tema mais delicado nos nossos assuntos, para que você se sinta confortável e plena na tomada das suas decisões.                    </p>                </div>            </div>        </div>    </section>    <!--jumbotron sobre fim-->    <!--Cadastrar-Inicio-->    <br>    <br>    <div class="container-fluid" id="areacadastrar">        <div class="row">            <div class="col-md-6" id=\'img-bg\'></div>            <div class="col-md-6 mt-5 mb-5">                <div class="row d-flex justify-content-center">                    <div class="col-md-10">                        <h1 class="text-center">Junte-se a nós</h1>                        <div class="form-group">                            <label for="nome">Nome</label>                            <input [(ngModel)]=\'user.nome\' class="form-control" type="text" name="nome" id="nome" placeholder="Seu nome">                        </div>                        <div class="form-group">                            <label for="usuario">Usuário</label>                            <input [(ngModel)]=\'user.userName\' class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu usuário">                        </div>                        <div class="form-group">                            <label for="foto">Link da foto</label>                            <input [(ngModel)]=\'user.foto\' class="form-control" type="text" name="foto" id="foto" placeholder="Sua foto">                        </div>                        <div class="form-group">                            <label for="senha">Senha</label>                            <input (input)=\'confirmSenha($event)\' class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">                        </div>                        <div class="form-group">                            <label for="confirmeSenha">Confirmar Senha</label>                            <input [(ngModel)]=\'user.senha\' class="form-control" type="password" name="confirmeSenha" id="confirmeSenha" placeholder="Confirme sua senha">                        </div>                        <div class="form-group">                            <label for="email">E-mail</label>                            <input [(ngModel)]=\'user.email\' class="form-control" type="text" name="email" id="email" placeholder="Campo do email">                        </div>                        <div class="form-group">                            <label for="bio">Biografia: </label>                            <input [(ngModel)]=\'user.bio\' class="form-control" type="text" name="bio" id="bio" placeholder="Descrição ao perfil">                        </div>                        <div class="form-group">                            <label for="tipo">Tipo de Usuário</label>                            <select class="form-control" name="tipo" id="tipo" (change)=\'tipoUser($event)\'>                                <option>Selecione um tipo de usuário:</option>                                <option value="normal">Normal</option>                                <option value="administrador">Administrador</option>                            </select>                            <br>                            <br>                            <div class="wrap">                                <button type="submit" class="button-cad" (click)=\'cadastrar()\'>Cadastrar</button>                            </div>                        </div>                    </div>                </div>            </div>        </div>    </div>    <!--Cadastrar-Fim-->    <!--cards-equipe-inicio<hr>ng ser<br><br>     <!-image lateral-inicio-->    <div class="d-flex justify-content-center font-italic display-4 mb-4 p-3 align-items-center">        <h2 class="font-italic "> Siga-nos nas redes sociais </h2>        <img src="https://i.imgur.com/pRvNJZV.png" alt="Imagem rede social" width="250px" height="250px">    </div>    <!--image lateral-fim-->    <div class="tcenter">        <div class="card card1-zoom p10 card border-dark mb-3 text-dark">            <div class="bolinha">                <img class="card-img-top" src="https://i.imgur.com/0pSGt3b.jpg" alt="Github">            </div>            <div class="card-body ">                <h5 class="card-title">Vitória Gonçalves</h5>                <p class="card-text">Desenvolvedora Jr. java Full stack</p>                <a href="https://github.com/VitoriaAlric" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">                </a>                <a href="https://www.linkedin.com/in/vitória-alric11953025442/" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">                </a>            </div>        </div>        <div class="card card-up card2-zoom p10 card border-dark mb-3 text-dark">            <div class="bolinha">                <img class="card-img-top " src="https://i.imgur.com/ShAPMu0.jpg" alt="Github">            </div>            <div class="card-body">                <h5 class="card-title">Jéssica Santos</h5>                <p class="card-text">Desenvolvedora Jr. java Full stack</p>                <a href="https://github.com/JessicaSantoss" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">                </a>                <a href="https://www.linkedin.com/in/j%C3%A9ssica-s-615241115/" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">                </a>            </div>        </div>        <div class="card card-up card3-zoom p10 card border-dark mb-3 text-dark">            <div class="bolinha">                <img class="card-img-top" src="https://i.imgur.com/N7btkza.jpg" alt="Github">            </div>            <div class="card-body">                <h5 class="card-title">João Pedro</h5>                <p class="card-text">Desenvolvedor Jr. java Full stack</p>                <a href="https://github.com/Mr-Sena" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">                </a>                <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-sena-64a3b11a0/" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">                </a>            </div>        </div>        <br>        <br>        <div class="card card-up card4-zoom p10 card border-dark mb-3 text-dark">            <div class="bolinha">                <img class="card-img-top" src="https://i.imgur.com/EIIxucC.jpg" alt="Github">            </div>            <div class="card-body">                <h5 class="card-title">Thiago dos Anjos</h5>                <p class="card-text">Desenvolvedor Jr. java Full stack</p>                <a href="https://github.com/thiagohdosanjos" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">                </a>                <a href="https://www.linkedin.com/in/thiago-dos-anjos-184101186/" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">                </a>            </div>        </div>        <div class="card card-up card5-zoom p10 card border-dark mb-3 text-dark">            <div class="bolinha">                <img class="card-img-top" src="https://i.imgur.com/T11DDIW.jpg" alt="Foto da Ana">            </div>            <div class="card-body">                <h5 class="card-title">Ana Verônica</h5>                <p class="card-text">Desenvolvedora Jr. java Full stack.</p>                <a href="" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">                </a>                <a href="https://www.linkedin.com/in/ana-veronica-nascimento-cruz-1896a0158/" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">                </a>            </div>        </div>        <div class="card card-up card6-zoom p10 card border-dark mb-3 text-dark">            <div class="bolinha">                <img class="card-img-top" src="https://i.imgur.com/C0ylYyT.jpg" alt="Foto da Jenifer">            </div>            <div class="card-body">                <h5 class="card-title">Jenifer</h5>                <p class="card-text">Desenvolvedora Jr. java Full stack</p>                <a href="https://github.com/jeniferplacido" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/BvLKWvt.png" alt="Logo do Git">                </a>                <a href="https://www.linkedin.com/in/jenifer-pl%C3%A1cido-00b5611ab/" target="_blank" class="p-2">                    <img class="tm-social" src="https://i.imgur.com/AaY5agL.png" alt="Logo do Linkedin">                </a>            </div>        </div>    </div>    <!--cards-fim-->    <br>    <br></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CarreiraComponent', 'selector': 'app-carreira'},{'name': 'EquipeComponent', 'selector': 'app-equipe'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'MenuComponent', 'selector': 'app-menu'},{'name': 'OngsComponent', 'selector': 'app-ongs'},{'name': 'PerfilComponent', 'selector': 'app-perfil'},{'name': 'PostagemComponent', 'selector': 'app-postagem'},{'name': 'PostagemDeleteComponent', 'selector': 'app-postagem-delete'},{'name': 'PostagemEditComponent', 'selector': 'app-postagem-edit'},{'name': 'RodapeComponent', 'selector': 'app-rodape'},{'name': 'TemaComponent', 'selector': 'app-tema'},{'name': 'TemaDeleteComponent', 'selector': 'app-tema-delete'},{'name': 'TemaEditComponent', 'selector': 'app-tema-edit'},{'name': 'TopbarComponent', 'selector': 'app-topbar'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'MenuComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'MenuComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

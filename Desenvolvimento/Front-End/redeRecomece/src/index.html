@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>RedeRecomece</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://i.imgur.com/nc384TD.png">
+</head>
+
+<body>
+    <app-root></app-root>
+
+
+    <!--Leitura de libras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!--Leitura de libras-->
+
+
+
+    <!--ChatBot-->
+
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "8710d4e4-abf5-4bf9-bcb6-d54c10438abb", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "21264626-d0c9-4cd5-afe8-e09bdb52e3a9", // The ID of your service instance.
+            onLoad: function(instance) {
+                instance.render();
+            }
+        };
+        setTimeout(function() {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+            document.head.appendChild(t);
+        });
+    </script>
+
+    <!--ChatBot-->
+</body>
+
+</html>
