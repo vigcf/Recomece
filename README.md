@@ -23,3 +23,24 @@ Desenvolvemos essa rede social, dando um suporte, para que haja um melhor engaja
 Dada as estatísticas, não poderiamos excluir esse tema mais delicado nos nossos assuntos, para que você se sinta confortável e plena na tomada das suas decisões.
 
 ![alt text](https://i.imgur.com/nc384TD.pnghttp://url/to/img.png)
+
+
+<br>
+<br>
+<br>
+
+IMPORTANTE 
+ - Executando o projeto pela primeiro vez? 
+Certifique de:
+
+## Instalar o pacote node:
+
+<code>npm i</code>
+
+## Instalar o ngx-order-pipe
+
+<code>npm i ngx-order-pipe</code>
+
+## Instalar o npm i ngx-bootstrap
+
+<code>npm i ngx-bootstrap</code>
