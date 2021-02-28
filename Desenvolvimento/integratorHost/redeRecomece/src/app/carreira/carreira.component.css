@@ -1,0 +1,52 @@
+.rodape {
+    height: 70px;
+    background-color: RosyBrown;
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.bc-1 {
+    background-color: #FFFFE0;
+    display: flex;
+}
+
+.main-navbar {
+    height: 70px;
+    background-color: RosyBrown;
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center
+}
+
+.bt-color:hover {
+    background-color: MediumAquamarine;
+}
+
+.bt2-color {
+    background-color: rgb(250, 241, 241);
+}
+
+.bt-cadastrar:hover {
+    background-color: rgb(85, 119, 211);
+}
+
+.textOne {
+    position: justify;
+    font-family: Squada One;
+    font-style: normal;
+    font-size: 20px;
+    color: rosybrown;
+}
+
+.titulo {
+    font-family: Bradley Hand;
+    font-size: 30px;
+    font-style: italic;
+    color: palevioletred;
+}
+
+.body {
+    background-color: seashell;
+}
