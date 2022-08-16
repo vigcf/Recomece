@@ -24,9 +24,12 @@ Para que se saiba, são eles: Educação de Qualidade, Redução das desigualdad
 Desenvolvemos essa rede social, dando um suporte, para que haja um melhor engajamento e diversidade dentro do mercado, revelando oportunidades, eventos ou qualquer atividade que prepare as habilidades do usuário para ingressar no mercado. O Recomece nasceu em um momento em que surgiu um termo inerente às mulheres: feminicídios.
 Dada as estatísticas, não poderiamos excluir esse tema mais delicado nos nossos assuntos, para que você se sinta confortável e plena na tomada das suas decisões.
 
-![alt text](https://i.imgur.com/nc384TD.pnghttp://url/to/img.png)
-
-
+<a href="https://imgur.com/sbubd93"><img src="https://i.imgur.com/sbubd93.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/YrQcAb7"><img src="https://i.imgur.com/YrQcAb7.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/LE9QgZJ"><img src="https://i.imgur.com/LE9QgZJ.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/oQHDf7g"><img src="https://i.imgur.com/oQHDf7g.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/jKWHvnh"><img src="https://i.imgur.com/jKWHvnh.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/vqnCeug"><img src="https://i.imgur.com/vqnCeug.png" title="source: imgur.com" /></a>
 <br>
 <br>
 <br>
